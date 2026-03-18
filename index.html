@@ -2724,149 +2724,127 @@
             </div>
         </section>
         <!-- GIẢNG VIÊN -->
-        <section class="py-20 px-4 sm:px-6 overflow-hidden">
-            <div class="max-w-7xl mx-auto">
-                <!-- Heading -->
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-white uppercase tracking-wide">Dàn Giảng Viên Chuyên
-                        Gia</h2>
-                    <p class="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Học hỏi từ các chuyên gia đầu ngành trong lĩnh vực Marketing, Content, AI, Creative, Branding,
-                        Digital, Xây dựng thương hiệu cá nhân & cộng đồng
-                    </p>
-                </div>
+<section class="py-20 px-4 sm:px-6 overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <!-- Heading -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-white uppercase tracking-wide">Dàn Giảng Viên Chuyên Gia</h2>
+            <p class="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
+                Học hỏi từ các chuyên gia đầu ngành trong lĩnh vực Marketing, Content, AI, Creative, Branding, Digital, Xây dựng thương hiệu cá nhân & cộng đồng
+            </p>
+        </div>
 
-                <!-- 
+        <!-- 
             Grid Container: 
             - Mobile: flex, vuốt ngang (overflow-x-auto)
-            - PC (lg): grid 5 cột
+            - PC (lg): grid 3 cột (lg:grid-cols-3) -> Tự động rớt xuống thành 2 hàng cho 6 người
         -->
-                <div class="flex lg:grid lg:grid-cols-5 gap-4 lg:gap-6 overflow-x-auto lg:overflow-visible snap-x snap-mandatory pb-8 lg:pb-0 hide-scrollbar -mx-4 px-4 lg:mx-0 lg:px-0"
-                    id="trainers-grid">
-
-                    <!-- Thẻ Giảng Viên 1 -->
-                    <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto"
-                        style="animation-delay: 0s">
-                        <div class="aspect-[3/4] w-full">
-                            <img src="https://static.wixstatic.com/media/361bef_4242bbf863634e94bc3581b97a1ba2b4~mv2.png"
-                                alt="Ms. Phạm Thị Xuân Lộc"
-                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
-                            <h3 class="text-xl font-bold text-white">Ms. Phạm Thị Xuân Lộc</h3>
-                            <p class="text-cyan-300">Expert Business Analyst tại FIS Bank / BA Lead tại MSB Bank</p>
-                            <div
-                                class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                                <p class="text-sm text-white">Có hơn 13 năm kinh nghiệm IT, Core Banking và Digital Banking cho nhiều ngân hàng lớn. Đang là Business Analyst Leader tại FPT IS, 
-                                    phụ trách định hướng giải pháp và dẫn dắt đội ngũ BA trong các dự án chiến lược. Từng làm Expert IT BA tại Viettinbank, MSB, Napas, Vietel. Sở hữu các chứng chỉ chuyên môn quốc tế uy tín: CCBA, ISTQB
-                                </p>
-                            </div>
-                        </div>
+        <div class="flex lg:grid lg:grid-cols-3 gap-4 lg:gap-6 overflow-x-auto lg:overflow-visible snap-x snap-mandatory pb-8 lg:pb-0 hide-scrollbar -mx-4 px-4 lg:mx-0 lg:px-0" id="trainers-grid">
+            
+            <!-- Thẻ Giảng Viên 1 -->
+            <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto" style="animation-delay: 0s">
+                <div class="aspect-[3/4] w-full">
+                    <img src="https://static.wixstatic.com/media/361bef_4242bbf863634e94bc3581b97a1ba2b4~mv2.png" alt="Ms. Phạm Thị Xuân Lộc" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
+                    <h3 class="text-xl font-bold text-white">Ms. Phạm Thị Xuân Lộc</h3>
+                    <p class="text-cyan-300">Expert Business Analyst tại FIS Bank / BA Lead tại MSB Bank</p>
+                    <div class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        <p class="text-sm text-white">Có hơn 13 năm kinh nghiệm IT, Core Banking và Digital Banking cho nhiều ngân hàng lớn. Đang là Business Analyst Leader tại FPT IS, phụ trách định hướng giải pháp và dẫn dắt đội ngũ BA trong các dự án chiến lược. Từng làm Expert IT BA tại Viettinbank, MSB, Napas, Vietel. Sở hữu các chứng chỉ chuyên môn quốc tế uy tín: CCBA, ISTQB</p>
                     </div>
-
-                    <!-- Thẻ Giảng Viên 2 -->
-                    <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto"
-                        style="animation-delay: 0.1s">
-                        <div class="aspect-[3/4] w-full">
-                            <img src="https://static.wixstatic.com/media/361bef_aa12be6391cb4119a0a34cb7cc832ac2~mv2.png"
-                                alt="Mr. Bùi Ngọc Sơn"
-                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
-                            <h3 class="text-xl font-bold text-white">Mr. Bùi Ngọc Sơn</h3>
-                            <p class="text-cyan-300">Senior ITBA/ Solution Consultant / PO tại USA Company – IGH
-                                Logistics</p>
-                            <div
-                                class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                                <p class="text-sm text-white">
-                                    5+ năm kinh nghiệm ITBA và là Senior ITBA & Solution Consultant tại IGH
-                                    Logistics, Dự án Global Connect Logistics và Marketing CMS Platform tại Mỹ, và các dự án như EHR, HDMS, Impact Sphere. Với tư duy giải pháp sắc bén và kinh nghiệm thực chiến đa quốc gia
-                                    anh sẽ giúp học viên làm chủ quy trình vận hành dự án phức tạp tại các tập đoàn hàng
-                                    đầu thế giới.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Thẻ Giảng Viên 3 -->
-                    <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto"
-                        style="animation-delay: 0.2s">
-                        <div class="aspect-[3/4] w-full">
-                            <img src="https://static.wixstatic.com/media/361bef_e3ac26117c574b14a3392ca7547a2772~mv2.png"
-                                alt="Mr. Đặng Văn Hùng"
-                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
-                            <h3 class="text-xl font-bold text-white">Mr. Đặng Văn Hùng</h3>
-                            <p class="text-cyan-300">Consultant GOV/PM/ Senior ITBA tại NetLine</p>
-                            <div
-                                class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                                <p class="text-sm text-white">
-                                    15+ năm kinh nghiệm trong lĩnh vực Công nghệ thông tin với nhiều vai trò từ
-                                    Lập trình viên, Phân tích nghiệp vụ, Tư vấn giải pháp và Quản trị dự án CNTT.
-                                    <br>Có kinh nghiệm làm việc các dự án khối Chính phủ và các dự án domain ERP, Edu,
-                                    Bảo hiểm, Y tế.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Thẻ Giảng Viên 4 -->
-                    <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto"
-                        style="animation-delay: 0.3s">
-                        <div class="aspect-[3/4] w-full">
-                            <img src="https://static.wixstatic.com/media/361bef_0907175c22564064a2230b098b2e6894~mv2.png"
-                                alt="Ms. Tạ Anh Luận"
-                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
-                            <h3 class="text-xl font-bold text-white">Ms. Tạ Anh Luận</h3>
-                            <p class="text-cyan-300">Product Owner tại Axon Active Viet Nam/Senior BA & PO tại BIC Bank
-                            </p>
-                            <div
-                                class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                                <p class="text-sm text-white">
-                                    Kinh nghiệm trong lĩnh vực tài chính - ngân hàng số với bề dày kinh nghiệm triển
-                                    khai các hệ thống triệu đô như Ngân hàng số Migros Bank (Thụy Sĩ), Backbase & T24
-                                    cho BIC Bank (Campuchia) và ABBank, cùng các giải pháp tín dụng phức tạp tại các tập
-                                    đoàn tài chính Nhật Bản như JACCS hay hệ thống cấu hình workflow EPIC tại Home
-                                    Credit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Thẻ Giảng Viên 5 -->
-                    <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto"
-                        style="animation-delay: 0.4s">
-                        <div class="aspect-[3/4] w-full">
-                            <img src="https://static.wixstatic.com/media/361bef_2adef8f1b9bd45c89fc9c9296b91cae7~mv2.png"
-                                alt="Mr. Bùi Xuân Thành"
-                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
-                            <h3 class="text-xl font-bold text-white">Mr. Bùi Xuân Thành</h3>
-                            <p class="text-cyan-300">Business Analyst Manager/Product Owner tại Nami Foundation</p>
-                            <div
-                                class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                                <p class="text-sm text-white">
-                                    Chuyên gia dày kinh nghiệm thực chiến qua các hệ thống vận hành quy mô lớn như PIM,
-                                    POMS và Supplier Portal tại Yes4All, giúp tối ưu hóa toàn diện quy trình cung ứng.
-                                    Các dự án đột phá trong lĩnh vực Fintech và Blockchain như Nami Exchange, Hopium,
-                                    Stablecoin VNST và các ứng dụng xu hướng như Nekoton.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </section>
+            
+            <!-- Thẻ Giảng Viên 2 -->
+            <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto" style="animation-delay: 0.1s">
+                <div class="aspect-[3/4] w-full">
+                    <img src="https://static.wixstatic.com/media/361bef_aa12be6391cb4119a0a34cb7cc832ac2~mv2.png" alt="Mr. Bùi Ngọc Sơn" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
+                    <h3 class="text-xl font-bold text-white">Mr. Bùi Ngọc Sơn</h3>
+                    <p class="text-cyan-300">Senior ITBA/ Solution Consultant / PO tại USA Company – IGH Logistics</p>
+                    <div class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        <p class="text-sm text-white">
+                            5+ năm kinh nghiệm ITBA và là Senior ITBA & Solution Consultant tại IGH Logistics, Dự án Global Connect Logistics và Marketing CMS Platform tại Mỹ, và các dự án như EHR, HDMS, Impact Sphere. Với tư duy giải pháp sắc bén và kinh nghiệm thực chiến đa quốc gia anh sẽ giúp học viên làm chủ quy trình vận hành dự án phức tạp tại các tập đoàn hàng đầu thế giới.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Thẻ Giảng Viên 3 -->
+            <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto" style="animation-delay: 0.2s">
+                <div class="aspect-[3/4] w-full">
+                    <img src="https://static.wixstatic.com/media/361bef_e3ac26117c574b14a3392ca7547a2772~mv2.png" alt="Mr. Đặng Văn Hùng" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
+                    <h3 class="text-xl font-bold text-white">Mr. Đặng Văn Hùng</h3>
+                    <p class="text-cyan-300">Consultant GOV/PM/ Senior ITBA tại NetLine</p>
+                    <div class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        <p class="text-sm text-white">
+                            15+ năm kinh nghiệm trong lĩnh vực Công nghệ thông tin với nhiều vai trò từ Lập trình viên, Phân tích nghiệp vụ, Tư vấn giải pháp và Quản trị dự án CNTT.
+                            <br>Có kinh nghiệm làm việc các dự án khối Chính phủ và các dự án domain ERP, Edu, Bảo hiểm, Y tế.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Thẻ Giảng Viên 4 -->
+            <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto" style="animation-delay: 0.3s">
+                <div class="aspect-[3/4] w-full">
+                    <img src="https://static.wixstatic.com/media/361bef_0907175c22564064a2230b098b2e6894~mv2.png" alt="Ms. Tạ Anh Luận" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
+                    <h3 class="text-xl font-bold text-white">Ms. Tạ Anh Luận</h3>
+                    <p class="text-cyan-300">Product Owner tại Axon Active Viet Nam/Senior BA & PO tại BIC Bank</p>
+                    <div class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        <p class="text-sm text-white">
+                            Kinh nghiệm trong lĩnh vực tài chính - ngân hàng số với bề dày kinh nghiệm triển khai các hệ thống triệu đô như Ngân hàng số Migros Bank (Thụy Sĩ), Backbase & T24 cho BIC Bank (Campuchia) và ABBank, cùng các giải pháp tín dụng phức tạp tại các tập đoàn tài chính Nhật Bản như JACCS hay hệ thống cấu hình workflow EPIC tại Home Credit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thẻ Giảng Viên 5 -->
+            <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto" style="animation-delay: 0.4s">
+                <div class="aspect-[3/4] w-full">
+                    <img src="https://static.wixstatic.com/media/361bef_5d548ab49ebd4618bf90106c0c795036~mv2.png" alt="Mr. Hồ Thanh Tĩnh" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
+                    <h3 class="text-xl font-bold text-white">Mr. Hồ Thanh Tĩnh</h3>
+                    <p class="text-cyan-300">Product Manager tại Thanh Cong Textile Garment Investment Trading JSC/ITBA L&A CORPORATION</p>
+                    <div class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        <p class="text-sm text-white">
+                            Chuyên gia dày kinh nghiệm thực chiến qua các hệ thống vận hành quy mô lớn như PIM, POMS và Supplier Portal tại Yes4All, giúp tối ưu hóa toàn diện quy trình cung ứng. Các dự án đột phá trong lĩnh vực Fintech và Blockchain như Nami Exchange, Hopium, Stablecoin VNST và các ứng dụng xu hướng như Nekoton.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thẻ Giảng Viên 6 -->
+            <div class="speaker-card group relative rounded-xl overflow-hidden cursor-pointer snap-center flex-none w-[85vw] sm:w-[320px] lg:w-auto" style="animation-delay: 0.5s">
+                <div class="aspect-[3/4] w-full">
+                    <img src="https://static.wixstatic.com/media/361bef_2adef8f1b9bd45c89fc9c9296b91cae7~mv2.png" alt="Mr. Bùi Xuân Thành" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-5 lg:p-6 w-full">
+                    <h3 class="text-xl font-bold text-white">Mr. Bùi Xuân Thành</h3>
+                    <p class="text-cyan-300">Business Analyst Manager/Product Owner tại Nami Foundation</p>
+                    <div class="speaker-info absolute bottom-0 left-0 w-full bg-black/90 p-6 opacity-0 transform translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        <p class="text-sm text-white">
+                            Chuyên gia dày kinh nghiệm thực chiến qua các hệ thống vận hành quy mô lớn như PIM, POMS và Supplier Portal tại Yes4All, giúp tối ưu hóa toàn diện quy trình cung ứng. Các dự án đột phá trong lĩnh vực Fintech và Blockchain như Nami Exchange, Hopium, Stablecoin VNST và các ứng dụng xu hướng như Nekoton.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 
         <!-- SECTION 6: ĐỐI TƯỢNG PHÙ HỢP -->
         <section class="py-20 px-4 sm:px-6 bg-slate-900/30 animate-fade-in-up-custom">
